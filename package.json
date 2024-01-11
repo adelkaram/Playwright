@@ -1,0 +1,30 @@
+{
+  "name": "kofta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    
+    "test": "cucumber-js",
+    "test-chromium": "cucumber-js --format progress-bar",
+    "test-firefox": "BROWSER=firefox cucumber-js --format progress-bar",
+    "test-webkit": "BROWSER=webkit cucumber-js --format progress-bar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.2.1",
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.11.0",
+    "chai": "^5.0.0",
+    "playwright": "^1.40.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "node": "^21.2.0"
+  }
+}
